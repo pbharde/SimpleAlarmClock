@@ -97,7 +97,7 @@ const isVisible = this.state.isVisible;
 var compareDate = new Date();
 var alarmSound = new Audio(soundFile);
     let alarmNodes = this.state.alarmList.map((alarm, index) => {
-       
+
       return (
           <div key={alarm.alarmKey}>
 
